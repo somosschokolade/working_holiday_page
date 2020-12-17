@@ -1,0 +1,38 @@
+ion-icon {
+    color: rebeccapurple;
+  }
+
+img {
+  width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption h1 {
+font-size:500%;
+
+}
+
+#btn-contact {
+  background-color: indigo;
+}
+.tit_contact {
+ color: indigo;
+}
