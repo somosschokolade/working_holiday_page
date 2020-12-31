@@ -1,10 +1,26 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 ion-icon {
-    color: rebeccapurple;
+    color: #41aea9;
   }
 
-img {
-  width: 100%;
+
+nav {   
+  font-weight: bold;
+  background-color:white;
+  transition: .5s;
 }
+
+nav.nav_white {
+  background-color: white;
+  padding: 5px 64px;
+  transition: .5s;
+  animation: reverse;
+}
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -16,7 +32,7 @@ img {
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+    font-size: 0.2rem;
   }
 }
 
@@ -31,12 +47,64 @@ font-size:500%;
 }
 
 #btn-contact {
-  background-color: indigo;
+  background-color: #41aea9;
+  border: none;
+  
 }
 .tit_contact {
- color: indigo;
+ color: #41aea9;
+}
+
+.nav-item:hover {
+  color: #41aea9;
 }
 
 footer {
-  background-color:gainsboro;
+  color: white;
+  background-color: #17202A;
 }
+
+
+footer ion-icon:hover {
+  color: white;
+
+}
+
+.tit_contact, .nuestros_viajes {
+  font-weight: bold;
+}
+
+
+.tit_contact:hover {
+  
+  color:#17202A;
+
+}
+
+#btn-contact:hover {
+  background-color:#17202A ;
+
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .6s;
+}
+
+a:hover, a:focus {
+  background-size: 100% 2px;
+}
+
+#titulo_web {
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #17202A;
+}
+
